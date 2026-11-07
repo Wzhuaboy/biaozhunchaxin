@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>标准查新 - 低压断路器核心清单</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;margin:0;background:#f6f7f9;color:#1a1a1a}
+header{background:#0f2a44;color:#fff;padding:28px 20px}
+header h1{margin:0;font-size:26px}
+header p{margin:8px 0 0;opacity:.9;line-height:1.6}
+.wrap{max-width:1080px;margin:0 auto;padding:20px}
+.box{background:#fff;border:1px solid #e3e6ea;border-radius:12px;padding:16px;margin-bottom:16px}
+.warn{background:#fff8e1;border:1px solid #f0d48a}
+.warn b{color:#8a6d00}
+input[type=search]{width:100%;font-size:17px;padding:12px 14px;border:1px solid #c9d1d9;border-radius:10px;box-sizing:border-box}
+.chips{margin-top:12px;display:flex;flex-wrap:wrap;gap:8px}
+.chips button{border:1px solid #c9d1d9;background:#fff;border-radius:999px;padding:7px 12px;cursor:pointer;font-size:14px}
+.chips button.on{background:#0f2a44;color:#fff;border-color:#0f2a44}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.stat{background:#f0f4f8;border-radius:10px;padding:10px 14px}
+.stat b{font-size:20px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #eee;vertical-align:top;line-height:1.5}
+th{background:#f0f4f8;position:sticky;top:0}
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;white-space:nowrap}
+.ok{background:#e6f4ea;color:#137333}
+.soon{background:#fef3c7;color:#92400e}
+.out{background:#fce8e6;color:#a50e0e}
+.un{background:#e8eaed;color:#5f6368}
+.rev{background:#e8f0fe;color:#174ea6}
+a{color:#0b57d0;word-break:break-all}
+.small{color:#5f6368;font-size:13px;line-height:1.7}
+code{background:#f0f4f8;padding:2px 6px;border-radius:6px}
+footer{color:#5f6368;font-size:13px;line-height:1.7;padding:10px 0 30px}
+@media(max-width:720px){table{font-size:13px}th:nth-child(4),td:nth-child(4){display:none}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap" style="padding:0">
+<h1>标准查新</h1>
+<p>低压断路器核心清单 · 只认官网 · 现行 / 即将实施 / 废止 / 修订中分开标</p>
+<p class="small" style="color:#dbe4ee">核查日期：2026-11-07 · 本站只做元数据索引，不提供标准全文 · 版本号以官网详情页为准，用前点官网链接复核</p>
+</div>
+</header>
+<div class="wrap">
+<div class="box warn"><b>准确口径：</b>已核实 = 2026-11-07 在官网详情页逐条核对过标准号、状态、发布 / 实施日期、代替关系。未核实 = 只在相关列表里见到名称，日期或版次没在官网详情页单独核对过，站内不编数。草案、征求意见、修订计划绝不当现行写。</div>
+<div class="box">
+<input type="search" id="q" placeholder="搜标准号、名称、关键词，例如：10963、60947、RCBO、剩余电流、MCCB">
+<div class="chips" id="sysChips"></div>
+<div class="chips" id="statusChips"></div>
+<div class="stats" id="stats"></div>
+</div>
+<div class="box" style="overflow-x:auto">
+<table>
+<thead><tr><th>标准号</th><th>名称 / 类型</th><th>体系</th><th>状态</th><th>版次 / 日期</th><th>代替关系 / 即将发布</th><th>官网 / 核实</th></tr></thead>
+<tbody id="tbody"></tbody>
+</table>
+<p class="small" id="count"></p>
+</div>
+<div class="box">
+<h3 style="margin-top:0">正源（只认这四个官网）</h3>
+<p class="small">中国：全国标准信息公共服务平台 <code>https://std.samr.gov.cn/</code>（状态、发布 / 实施、代替、修订计划）；国家标准全文公开系统 <code>https://openstd.samr.gov.cn/</code>（全文在线读，采标标准受版权限制不提供全文）。2026-11-07 实测：主站能正常打开，主管是国家市场监督管理总局、国家标准化管理委员会；主站详情页字段更全（含状态时间轴、代替关系、标准计划、起草单位 / 起草人），openstd 详情页较简，无代替、标准计划、起草字段；首页检索页不直接显示现行 / 即将实施 / 废止总数，总数按类别到 openstd 子系统里看。<br>
+国际 IEC：<code>https://webstore.iec.ch/</code>（版次、发布日期、稳定期、废止日期、cancels and replaces）。<br>
+欧盟 EN：<code>https://standards.cencenelec.eu/</code>（已发布 + 在研，prEN / FprEN 看 Standards Evolution and Forecast，EN 全文要走各国成员机构购买）。<br>
+美国 UL：<code>https://www.shopulstandards.com/</code>（ACTIVE / 历史版提示、Edition、Published Date、Last Revision）。<br>
+不用作依据的：道客巴巴、NBS、iteh.ai 等聚合转载站，只当线索。</p>
+<h3>怎么用这个站查新</h3>
+<p class="small">1. 先搜标准号，看状态是不是现行；2. 点官网链接，在官网详情页再对一遍发布 / 实施日期和代替关系；3. 看“即将发布”一栏：修订计划、征求意见、FprEN、dop / dow 日期都不等于现行；4. 废止行只用来追溯旧版，不能当现行依据。</p>
+</div>
+<footer>数据文件：data.json（与本页同源，可机读）· 仓库：标准查新 · 更新方式：人工逐条官网复核后更新，不自动爬取、不编造版本号。</footer>
+</div>
+<script>
+const DATA=[
+{sys:"GB",no:"GB/T 10963.1-2020",cn:"电气附件 家用及类似场所用过电流保护断路器 第1部分：用于交流的断路器",en:"Circuit-breakers for a.c. operation",type:"MCB",status:"现行",edition:"2020版",pub:"2020-11-19",impl:"2021-06-01",rel:"代替 GB/T 10963.1-2005（全部代替）",next:"修订计划 20260282-T-604，正在征求意见，下达 2026-01-28",url:"https://std.samr.gov.cn/gb/search/gbDetailed?id=B4C25880C3531CB3E05397BE0A0A92D0",ver:"已核实"},
+{sys:"GB",no:"GB/T 10963.2-2020",cn:"电气附件 家用及类似场所用过电流保护断路器 第2部分：用于交流和直流的断路器",en:"Circuit-breakers for a.c. and d.c. operation",type:"MCB",status:"现行",edition:"2020版",pub:"2020-11-19",impl:"2021-06-01",rel:"—",next:"—",url:"https://std.samr.gov.cn/",ver:"已核实"},
+{sys:"GB",no:"GB/T 10963.3-2025",cn:"电气附件 家用及类似场所用过电流保护断路器 第3部分：用于直流的断路器",en:"Circuit-breakers for DC operation",type:"MCB",status:"即将实施",edition:"2025版",pub:"未核实",impl:"2026-05-01（据2025年批准发布转载，未在官网详情页单独核实）",rel:"代替 GB/T 10963.3-2016",next:"—",url:"https://std.samr.gov.cn/",ver:"未核实"},
+{sys:"GB",no:"GB/T 14048.1-2023",cn:"低压开关设备和控制设备 第1部分：总则",en:"Low-voltage switchgear and controlgear - Part 1: General rules",type:"总则",status:"现行",edition:"2023版",pub:"2023-11-27",impl:"2024-06-01",rel:"全部代替 GB/T 14048.1-2012",next:"—",url:"https://std.samr.gov.cn/gb/search/gbDetailedCNF?id=0B4529DE0FF9FCAFE06397BE0A0A46CC",ver:"已核实"},
+{sys:"GB",no:"GB/T 14048.2-2020",cn:"低压开关设备和控制设备 第2部分：断路器",en:"Low-voltage switchgear and controlgear - Part 2: Circuit-breakers",type:"MCCB / ACB",status:"现行",edition:"2020版",pub:"2020-09-29",impl:"2021-04-01",rel:"采标，openstd 不提供全文阅读",next:"—",url:"https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=D67B4CA5133B65581E9463144A5725CE",ver:"已核实"},
+{sys:"GB",no:"GB/T 16916.1-2014",cn:"家用和类似用途的不带过电流保护的剩余电流动作断路器（RCCB） 第1部分：一般规则",en:"RCCBs - Part 1: General rules",type:"RCCB",status:"现行",edition:"2014版",pub:"2014-05-06",impl:"2015-06-29",rel:"上次复审 2021-12-28，结论继续有效",next:"—",url:"https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7EED5D3A7E05397BE0A0AB82A",ver:"已核实"},
+{sys:"GB",no:"GB/T 16917.1-2014",cn:"家用和类似用途的带过电流保护的剩余电流动作断路器（RCBO） 第1部分：一般规则",en:"RCBOs - Part 1: General rules",type:"RCBO",status:"现行",edition:"2014版",pub:"2014-05-06",impl:"2015-06-29",rel:"上次复审 2021-12-28，结论继续有效；2017-03-23 起转为推荐性标准",next:"—",url:"https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7EA12D3A7E05397BE0A0AB82A",ver:"已核实"},
+{sys:"GB",no:"GB/T 22794-2017",cn:"家用和类似用途的不带和带过电流保护的F型和B型剩余电流动作断路器",en:"F-type and B-type RCDs",type:"RCCB / RCBO",status:"现行",edition:"2017版",pub:"未核实",impl:"未核实",rel:"与 16916.1 / 16917.1 配套使用，见认证实施细则清单",next:"—",url:"https://std.samr.gov.cn/",ver:"未核实"},
+{sys:"IEC",no:"IEC 60898-1:2015+AMD1:2019 CSV",cn:"家用及类似场所用过电流保护断路器 第1部分：用于交流的断路器",en:"Circuit-breakers for a.c. operation",type:"MCB",status:"现行",edition:"Ed 2.0，CSV 含 AMD1:2019、COR1:2020",pub:"2015-03-23",impl:"—",rel:"代替 2002 第1版 + AMD1:2002 + AMD2:2003",next:"稳定期至 2026",url:"https://webstore.iec.ch/en/publication/21972",ver:"已核实"},
+{sys:"IEC",no:"IEC 60947-1:2020",cn:"低压开关设备和控制设备 第1部分：总则",en:"Low-voltage switchgear and controlgear - Part 1: General rules",type:"总则",status:"现行",edition:"Ed 6.0，含 COR2:2024",pub:"2020-04-22",impl:"—",rel:"代替 2007 第5版 + AMD1:2010 + AMD2:2014",next:"稳定期至 2026",url:"https://webstore.iec.ch/en/publication/26973",ver:"已核实"},
+{sys:"IEC",no:"IEC 60947-2:2024",cn:"低压开关设备和控制设备 第2部分：断路器",en:"Low-voltage switchgear and controlgear - Part 2: Circuit-breakers",type:"MCCB / ACB",status:"现行",edition:"Ed 6.0",pub:"2024-09-18",impl:"—",rel:"代替 2016 第5版 + AMD1:2019",next:"稳定期至 2026",url:"https://webstore.iec.ch/en/publication/66277",ver:"已核实"},
+{sys:"IEC",no:"IEC 60947-2:2016+AMD1:2019 CSV",cn:"低压开关设备和控制设备 第2部分：断路器（旧版）",en:"Low-voltage switchgear and controlgear - Part 2: Circuit-breakers",type:"MCCB / ACB",status:"废止",edition:"Ed 5.1",pub:"2019-07-08",impl:"—",rel:"被 IEC 60947-2:2024 代替",next:"废止日期 2024-09-18",url:"https://webstore.iec.ch/en/publication/65448",ver:"已核实"},
+{sys:"IEC",no:"IEC 61008-1:2024",cn:"家用和类似用途的不带过电流保护的剩余电流动作断路器（RCCB） 第1部分：一般规则",en:"RCCBs - Part 1: General rules",type:"RCCB",status:"现行",edition:"Ed 4.0",pub:"2024-11-21",impl:"—",rel:"代替 2010 第3版 + AMD1:2012 + AMD2:2013",next:"稳定期至 2029",url:"https://webstore.iec.ch/en/publication/67980",ver:"已核实"},
+{sys:"IEC",no:"IEC 61009-1:2024",cn:"家用和类似用途的带过电流保护的剩余电流动作断路器（RCBO） 第1部分：一般规则",en:"RCBOs - Part 1: General rules",type:"RCBO",status:"现行",edition:"Ed 4.0",pub:"2024-11-21",impl:"—",rel:"代替 2010 第3版 + AMD1:2012 + AMD2:2013",next:"稳定期至 2029",url:"https://webstore.iec.ch/en/publication/67981",ver:"已核实"},
+{sys:"IEC",no:"IEC 62606:2013+AMD1:2017+AMD2:2022 CSV",cn:"电弧故障检测和保护装置（AFDD）通用要求",en:"General requirements for arc fault detection and protection devices (AFDDs)",type:"AFDD",status:"现行",edition:"Ed 1.2",pub:"2022-11-17",impl:"—",rel:"2013 第1版 + AMD1:2017 + AMD2:2022 合并版",next:"稳定期至 2026",url:"https://webstore.iec.ch/publication/80273",ver:"已核实"},
+{sys:"EN",no:"EN 60898-1:2019+A1:2024+A11:2024",cn:"家用及类似场所用过电流保护断路器 第1部分：用于交流的断路器",en:"Circuit-breakers for a.c. operation",type:"MCB",status:"现行",edition:"EN 2019 + A1:2024 + A11:2024",pub:"2019-01-18",impl:"—",rel:"代替 EN 60898-1:2003；A1 / A11 于 2024-04-22 批准",next:"A1 / A11 dop 2025-04-22",url:"https://standards.cencenelec.eu/ords/f?p=305:32:::::FSP_ORG_ID,FSP_LANG_ID:1257221,25&cs=100DC98DE1248A1940D99DD27B3B9B81A",ver:"已核实"},
+{sys:"EN",no:"EN IEC 60947-1:2021",cn:"低压开关设备和控制设备 第1部分：总则",en:"Low-voltage switchgear and controlgear - Part 1: General rules",type:"总则",status:"现行",edition:"2021版，对应 IEC 60947-1:2020",pub:"未核实",impl:"—",rel:"对应 IEC 60947-1:2020（Ed 6.0）",next:"—",url:"https://standards.cencenelec.eu/",ver:"未核实"},
+{sys:"EN",no:"EN IEC 60947-2:2025",cn:"低压开关设备和控制设备 第2部分：断路器",en:"Low-voltage switchgear and controlgear - Part 2: Circuit-breakers",type:"MCCB / ACB",status:"现行",edition:"2025版，对应 IEC 60947-2:2024",pub:"2025-02",impl:"—",rel:"代替 EN 60947-2:2017 及 A1:2020；2024-10-16 批准",next:"dop 2026-02-28",url:"https://standards.cencenelec.eu/",ver:"已核实"},
+{sys:"EN",no:"EN IEC 61008-1:2024",cn:"家用和类似用途的不带过电流保护的剩余电流动作断路器（RCCB） 第1部分：一般规则",en:"RCCBs - Part 1: General rules",type:"RCCB",status:"未核实",edition:"未核实",pub:"未核实",impl:"—",rel:"IEC 61008-1:2024 已出，EN 采纳版待在 CENELEC 官网核对",next:"—",url:"https://standards.cencenelec.eu/",ver:"未核实"},
+{sys:"EN",no:"EN IEC 61009-1:2024",cn:"家用和类似用途的带过电流保护的剩余电流动作断路器（RCBO） 第1部分：一般规则",en:"RCBOs - Part 1: General rules",type:"RCBO",status:"未核实",edition:"未核实",pub:"未核实",impl:"—",rel:"IEC 61009-1:2024 已出，EN 采纳版待在 CENELEC 官网核对",next:"—",url:"https://standards.cencenelec.eu/",ver:"未核实"},
+{sys:"UL",no:"UL 489",cn:"模制外壳断路器、模制外壳开关和断路器外壳",en:"Molded-Case Circuit Breakers, Molded-Case Switches and Circuit-Breaker Enclosures",type:"MCCB",status:"现行",edition:"14th Edition",pub:"2025-03-07",impl:"—",rel:"代替 2019-04-22 第13版；ANSI 批准 2025-03-07",next:"UL 处于持续维护中，新修订可能已在进行中",url:"https://www.shopulstandards.com/ProductDetail.aspx?UniqueKey=47995",ver:"已核实"},
+{sys:"UL",no:"UL 489B",cn:"用于光伏系统的模制外壳断路器、开关和外壳",en:"Molded-Case Circuit Breakers for Use with Photovoltaic (PV) Systems",type:"MCCB",status:"现行",edition:"1st Edition",pub:"2016-03-07",impl:"—",rel:"Last Revision 2025-08-26，ANSI 批准 2025-08-26",next:"—",url:"https://www.shopulstandards.com/ProductDetail.aspx?UniqueKey=30753",ver:"已核实"},
+{sys:"UL",no:"UL 1077 / UL 943",cn:"辅助保护器 / 接地故障断路器（GFCI）",en:"Supplementary Protectors / Ground-Fault Circuit-Interrupters",type:"MCB / GFCI",status:"未核实",edition:"未核实",pub:"未核实",impl:"—",rel:"名称已确认，版次和发布日期未在 shopulstandards 详情页单独核实，不写",next:"—",url:"https://www.shopulstandards.com/",ver:"未核实"},
+{sys:"GB",no:"GB/T 14048.1-2012",cn:"低压开关设备和控制设备 第1部分：总则（旧版）",en:"Low-voltage switchgear and controlgear - Part 1: General rules",type:"总则",status:"废止",edition:"2012版",pub:"未核实",impl:"—",rel:"被 GB/T 14048.1-2023 全部代替",next:"废止 / 被代替：2024-06-01 起执行新版",url:"https://std.samr.gov.cn/",ver:"已核实"},
+{sys:"GB",no:"GB/T 10963.1-2005",cn:"电气附件 家用及类似场所用过电流保护断路器 第1部分：用于交流的断路器（旧版）",en:"Circuit-breakers for a.c. operation",type:"MCB",status:"废止",edition:"2005版",pub:"未核实",impl:"—",rel:"被 GB/T 10963.1-2020 全部代替",next:"—",url:"https://std.samr.gov.cn/",ver:"已核实"},
+{sys:"GB",no:"GB 16917.1-2003",cn:"家用和类似用途的带过电流保护的剩余电流动作断路器（RCBO） 第1部分：一般规则（旧版）",en:"RCBOs - Part 1: General rules",type:"RCBO",status:"废止",edition:"2003版",pub:"2003-10-09",impl:"2004-05-01",rel:"被 GB/T 16917.1-2014 全部代替",next:"—",url:"https://std.samr.gov.cn/",ver:"已核实"}
+];
+const sysList=["全部","GB","IEC","EN","UL"];
+const statusList=["全部","现行","即将实施","废止","未核实"];
+let sysF="全部",statusF="全部";
+const $=id=>document.getElementById(id);
+function badge(s){const m={"现行":"ok","即将实施":"soon","废止":"out","未核实":"un"};return '<span class="badge '+(m[s]||"un")+'">'+s+'</span>';}
+function renderChips(){
+$("sysChips").innerHTML=sysList.map(s=>'<button class="'+(s===sysF?"on":"")+'" data-sys="'+s+'">'+s+'</button>').join("");
+$("statusChips").innerHTML=statusList.map(s=>'<button class="'+(s===statusF?"on":"")+'" data-st="'+s+'">'+s+'</button>').join("");
+document.querySelectorAll("[data-sys]").forEach(b=>b.onclick=()=>{sysF=b.dataset.sys;render();});
+document.querySelectorAll("[data-st]").forEach(b=>b.onclick=()=>{statusF=b.dataset.st;render();});
+}
+function render(){
+renderChips();
+const q=($("q").value||"").trim().toLowerCase();
+const rows=DATA.filter(d=>(sysF==="全部"||d.sys===sysF)&&(statusF==="全部"||d.status===statusF)&&(!q||(d.no+" "+d.cn+" "+d.en+" "+d.type).toLowerCase().includes(q)));
+const c={现行:0,即将实施:0,废止:0,未核实:0};
+DATA.forEach(d=>{if(c[d.status]!==undefined)c[d.status]++;});
+$("stats").innerHTML='<div class="stat">共 <b>'+DATA.length+'</b> 条</div><div class="stat">现行 <b>'+c["现行"]+'</b></div><div class="stat">即将实施 <b>'+c["即将实施"]+'</b></div><div class="stat">废止 <b>'+c["废止"]+'</b></div><div class="stat">未核实 <b>'+c["未核实"]+'</b></div>';
+$("tbody").innerHTML=rows.map(d=>'<tr><td><b>'+d.no+'</b><br><span class="small">'+d.type+'</span></td><td>'+d.cn+'<br><span class="small">'+d.en+'</span></td><td>'+d.sys+'</td><td>'+badge(d.status)+'</td><td>'+d.edition+'<br><span class="small">发布 '+d.pub+'<br>实施 '+d.impl+'</span></td><td>'+d.rel+'<br><span class="small">'+d.next+'</span></td><td><a href="'+d.url+'" target="_blank" rel="noopener">官网详情页</a><br><span class="small">'+d.ver+' · 2026-11-07</span></td></tr>').join("")||'<tr><td colspan="7">没找到，换个标准号或关键词试试，例如 10963、60947、RCBO。</td></tr>';
+$("count").textContent="当前显示 "+rows.length+" 条 · 官网链接均为官方详情页或官网检索入口，未猜测构造详情地址。";
+}
+$("q").addEventListener("input",render);
+render();
+</script>
+</body>
+</html>
