@@ -1,6 +1,6 @@
 {
-  "checked": "2026-11-07",
-  "count": 51,
+  "checked": "2026-11-08",
+  "count": 85,
   "items": [
     {
       "sys": "GB",
@@ -18,7 +18,8 @@
       "ver": "已核实",
       "series": "10963",
       "adopt": "等同采用 IEC 60898-1:2015",
-      "adoptQ": "60898"
+      "adoptQ": "60898",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -36,7 +37,8 @@
       "ver": "已核实",
       "series": "10963",
       "adopt": "修改采用 IEC 60898-2:2016",
-      "adoptQ": "60898-2"
+      "adoptQ": "60898-2",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -54,7 +56,8 @@
       "ver": "未核实",
       "series": "10963",
       "adopt": "",
-      "adoptQ": ""
+      "adoptQ": "",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -72,7 +75,8 @@
       "ver": "已核实",
       "series": "14048",
       "adopt": "修改采用 IEC 60947-1:2020",
-      "adoptQ": "60947-1"
+      "adoptQ": "60947-1",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -90,7 +94,8 @@
       "ver": "已核实",
       "series": "14048",
       "adopt": "修改采用 IEC 60947-2:2016+AMD1:2019",
-      "adoptQ": "60947-2"
+      "adoptQ": "60947-2",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -108,7 +113,8 @@
       "ver": "已核实",
       "series": "16916",
       "adopt": "修改采用 IEC 61008-1:2012",
-      "adoptQ": "61008-1"
+      "adoptQ": "61008-1",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -126,7 +132,8 @@
       "ver": "已核实",
       "series": "16917",
       "adopt": "修改采用 IEC 61009-1:2012",
-      "adoptQ": "61009-1"
+      "adoptQ": "61009-1",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -144,7 +151,8 @@
       "ver": "未核实",
       "series": "22794",
       "adopt": "修改采用 IEC 62423:2009（待官网复核）",
-      "adoptQ": "62423"
+      "adoptQ": "62423",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -162,7 +170,8 @@
       "ver": "已核实",
       "series": "60898",
       "adopt": "被 GB/T 10963.1-2020 等同采用；对应 EN 60898-1:2019",
-      "adoptQ": "10963"
+      "adoptQ": "10963",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -180,7 +189,8 @@
       "ver": "已核实",
       "series": "60947",
       "adopt": "被 GB/T 14048.1-2023 修改采用；对应 EN IEC 60947-1:2021",
-      "adoptQ": "14048"
+      "adoptQ": "14048",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -198,7 +208,8 @@
       "ver": "已核实",
       "series": "60947",
       "adopt": "对应 EN IEC 60947-2:2025；国标 GB/T 14048.2-2020 采标的是 2016 版",
-      "adoptQ": "60947-2:2025"
+      "adoptQ": "60947-2:2025",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -216,7 +227,8 @@
       "ver": "已核实",
       "series": "60947",
       "adopt": "被 GB/T 14048.2-2020 修改采用",
-      "adoptQ": "14048"
+      "adoptQ": "14048",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -234,7 +246,8 @@
       "ver": "已核实",
       "series": "61008",
       "adopt": "对应 EN IEC 61008-1:2024；国标 GB/T 16916.1-2014 采标的是 2012 版",
-      "adoptQ": "16916"
+      "adoptQ": "16916",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -252,7 +265,8 @@
       "ver": "已核实",
       "series": "61009",
       "adopt": "对应 EN IEC 61009-1:2024；国标 GB/T 16917.1-2014 采标的是 2012 版",
-      "adoptQ": "16917"
+      "adoptQ": "16917",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -270,7 +284,8 @@
       "ver": "已核实",
       "series": "62606",
       "adopt": "",
-      "adoptQ": ""
+      "adoptQ": "",
+      "vd": "2026-11-07"
     },
     {
       "sys": "EN",
@@ -288,7 +303,8 @@
       "ver": "已核实",
       "series": "60898",
       "adopt": "采纳 IEC 60898-1:2015；对应国标 GB/T 10963.1-2020",
-      "adoptQ": "10963"
+      "adoptQ": "10963",
+      "vd": "2026-11-07"
     },
     {
       "sys": "EN",
@@ -306,7 +322,8 @@
       "ver": "未核实",
       "series": "60947",
       "adopt": "采纳 IEC 60947-1:2020；对应国标 GB/T 14048.1-2023",
-      "adoptQ": "14048"
+      "adoptQ": "14048",
+      "vd": "2026-11-07"
     },
     {
       "sys": "EN",
@@ -324,7 +341,8 @@
       "ver": "已核实",
       "series": "60947",
       "adopt": "采纳 IEC 60947-2:2024；对应国标 GB/T 14048.2-2020（国标采标 2016 版）",
-      "adoptQ": "14048"
+      "adoptQ": "14048",
+      "vd": "2026-11-07"
     },
     {
       "sys": "EN",
@@ -342,7 +360,8 @@
       "ver": "未核实",
       "series": "61008",
       "adopt": "采纳 IEC 61008-1:2024；对应国标 GB/T 16916.1-2014（国标采标 2012 版）",
-      "adoptQ": "16916"
+      "adoptQ": "16916",
+      "vd": "2026-11-07"
     },
     {
       "sys": "EN",
@@ -360,7 +379,8 @@
       "ver": "未核实",
       "series": "61009",
       "adopt": "采纳 IEC 61009-1:2024；对应国标 GB/T 16917.1-2014（国标采标 2012 版）",
-      "adoptQ": "16917"
+      "adoptQ": "16917",
+      "vd": "2026-11-07"
     },
     {
       "sys": "UL",
@@ -378,7 +398,8 @@
       "ver": "已核实",
       "series": "489",
       "adopt": "",
-      "adoptQ": ""
+      "adoptQ": "",
+      "vd": "2026-11-07"
     },
     {
       "sys": "UL",
@@ -396,7 +417,8 @@
       "ver": "已核实",
       "series": "489",
       "adopt": "",
-      "adoptQ": ""
+      "adoptQ": "",
+      "vd": "2026-11-07"
     },
     {
       "sys": "UL",
@@ -414,7 +436,8 @@
       "ver": "未核实",
       "series": "1077",
       "adopt": "",
-      "adoptQ": ""
+      "adoptQ": "",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -432,7 +455,8 @@
       "ver": "已核实",
       "series": "14048",
       "adopt": "",
-      "adoptQ": ""
+      "adoptQ": "",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -450,7 +474,8 @@
       "ver": "已核实",
       "series": "10963",
       "adopt": "",
-      "adoptQ": ""
+      "adoptQ": "",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -468,7 +493,8 @@
       "ver": "已核实",
       "series": "16917",
       "adopt": "",
-      "adoptQ": ""
+      "adoptQ": "",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -486,7 +512,8 @@
       "ver": "已核实",
       "series": "5169",
       "adopt": "等同采用 IEC 60695-11-5:2016",
-      "adoptQ": "60695-11-5"
+      "adoptQ": "60695-11-5",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -504,7 +531,8 @@
       "ver": "已核实",
       "series": "5169",
       "adopt": "",
-      "adoptQ": ""
+      "adoptQ": "",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -522,7 +550,8 @@
       "ver": "已核实",
       "series": "60695-11-5",
       "adopt": "被 GB/T 5169.5-2020 等同采用",
-      "adoptQ": "5169.5"
+      "adoptQ": "5169.5",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -540,7 +569,8 @@
       "ver": "已核实",
       "series": "5169",
       "adopt": "等同采用 IEC 60695-2-10:2013",
-      "adoptQ": "60695-2-10"
+      "adoptQ": "60695-2-10",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -558,7 +588,8 @@
       "ver": "已核实",
       "series": "5169",
       "adopt": "等同采用 IEC 60695-2-11:2014",
-      "adoptQ": "60695-2-11"
+      "adoptQ": "60695-2-11",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -576,7 +607,8 @@
       "ver": "已核实",
       "series": "5169",
       "adopt": "等同采用 IEC 60695-2-12:2021",
-      "adoptQ": "60695-2-12"
+      "adoptQ": "60695-2-12",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -594,7 +626,8 @@
       "ver": "已核实",
       "series": "5169",
       "adopt": "等同采用 IEC 60695-2-13:2021",
-      "adoptQ": "60695-2-13"
+      "adoptQ": "60695-2-13",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -612,7 +645,8 @@
       "ver": "已核实",
       "series": "60695-2-10",
       "adopt": "对应国标 GB/T 5169.10-2017（国标采标 2013 版，非本版）",
-      "adoptQ": "5169.10"
+      "adoptQ": "5169.10",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -630,7 +664,8 @@
       "ver": "未核实",
       "series": "60695-2-10",
       "adopt": "",
-      "adoptQ": ""
+      "adoptQ": "",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -648,7 +683,8 @@
       "ver": "未核实",
       "series": "60695-2-11",
       "adopt": "对应国标 GB/T 5169.11-2017（国标采标 2014 版，非本版）",
-      "adoptQ": "5169.11"
+      "adoptQ": "5169.11",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -666,7 +702,8 @@
       "ver": "已核实",
       "series": "60695-2-11",
       "adopt": "被 GB/T 5169.11-2017 等同采用（国标仍现行）",
-      "adoptQ": "5169.11"
+      "adoptQ": "5169.11",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -684,7 +721,8 @@
       "ver": "已核实",
       "series": "60695-2-12",
       "adopt": "被 GB/T 5169.12-2024 等同采用",
-      "adoptQ": "5169.12"
+      "adoptQ": "5169.12",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -702,7 +740,8 @@
       "ver": "已核实",
       "series": "60695-2-13",
       "adopt": "被 GB/T 5169.13-2024 等同采用",
-      "adoptQ": "5169.13"
+      "adoptQ": "5169.13",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -720,7 +759,8 @@
       "ver": "已核实",
       "series": "4207",
       "adopt": "等同采用 IEC 60112:2020",
-      "adoptQ": "60112"
+      "adoptQ": "60112",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -738,7 +778,8 @@
       "ver": "已核实",
       "series": "4207",
       "adopt": "",
-      "adoptQ": ""
+      "adoptQ": "",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -756,7 +797,8 @@
       "ver": "已核实",
       "series": "60112",
       "adopt": "对应国标 GB/T 4207-2022（国标采标 2020 版，非本版）",
-      "adoptQ": "4207"
+      "adoptQ": "4207",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -774,7 +816,8 @@
       "ver": "已核实",
       "series": "60112",
       "adopt": "被 GB/T 4207-2022 等同采用（国标仍现行）",
-      "adoptQ": "4207"
+      "adoptQ": "4207",
+      "vd": "2026-11-07"
     },
     {
       "sys": "EN",
@@ -792,7 +835,8 @@
       "ver": "未核实",
       "series": "60112",
       "adopt": "采纳 IEC 60112:2025；对应国标 GB/T 4207-2022",
-      "adoptQ": "4207"
+      "adoptQ": "4207",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -810,7 +854,8 @@
       "ver": "已核实",
       "series": "10125",
       "adopt": "修改采用 ISO 9227:2017",
-      "adoptQ": "9227"
+      "adoptQ": "9227",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -828,7 +873,8 @@
       "ver": "已核实",
       "series": "10125",
       "adopt": "",
-      "adoptQ": ""
+      "adoptQ": "",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -846,7 +892,8 @@
       "ver": "已核实",
       "series": "2423",
       "adopt": "等同采用 IEC 60068-2-11:2021",
-      "adoptQ": "60068-2-11"
+      "adoptQ": "60068-2-11",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -864,7 +911,8 @@
       "ver": "已核实",
       "series": "2423",
       "adopt": "",
-      "adoptQ": ""
+      "adoptQ": "",
+      "vd": "2026-11-07"
     },
     {
       "sys": "GB",
@@ -882,7 +930,8 @@
       "ver": "已核实",
       "series": "2423",
       "adopt": "等同采用 IEC 60068-2-52:2017",
-      "adoptQ": "60068-2-52"
+      "adoptQ": "60068-2-52",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -900,7 +949,8 @@
       "ver": "已核实",
       "series": "60068-2-11",
       "adopt": "被 GB/T 2423.17-2024 等同采用",
-      "adoptQ": "2423.17"
+      "adoptQ": "2423.17",
+      "vd": "2026-11-07"
     },
     {
       "sys": "IEC",
@@ -918,7 +968,654 @@
       "ver": "已核实",
       "series": "60068-2-52",
       "adopt": "被 GB/T 2423.18-2021 等同采用",
-      "adoptQ": "2423.18"
+      "adoptQ": "2423.18",
+      "vd": "2026-11-07"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 5169.21-2017",
+      "cn": "电工电子产品着火危险试验 第21部分：非正常热 球压试验方法",
+      "en": "Fire hazard testing - Part 21: Abnormal heat - Ball pressure test method",
+      "type": "球压试验",
+      "status": "现行",
+      "edition": "2017版",
+      "pub": "2017-12-29",
+      "impl": "2018-07-01",
+      "rel": "代替 GB/T 5169.21-2006（全部代替）",
+      "next": "—",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=3BA348A9D1F67388FB8CECDD48F900EB",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "5169",
+      "adopt": "等同采用 IEC 60695-10-2:2014",
+      "adoptQ": "60695-10-2"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 5169.21-2006",
+      "cn": "电工电子产品着火危险试验 第21部分：非正常热 球压试验（旧版）",
+      "en": "Fire hazard testing - Part 21: Abnormal heat - Ball pressure test",
+      "type": "球压试验",
+      "status": "废止",
+      "edition": "2006版",
+      "pub": "2006-12-19",
+      "impl": "2007-09-01",
+      "rel": "被 GB/T 5169.21-2017 全部代替",
+      "next": "废止日期 2018-07-01",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=B89DA6BA4E1F81F6872D04C6987C62A8",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "5169",
+      "adopt": "",
+      "adoptQ": ""
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60695-10-2:2014",
+      "cn": "着火危险试验 第10-2部分：非正常热 球压试验方法",
+      "en": "Fire hazard testing - Part 10-2: Abnormal heat - Ball pressure test method",
+      "type": "球压试验",
+      "status": "现行",
+      "edition": "Ed 3.0",
+      "pub": "2014-02-19",
+      "impl": "—",
+      "rel": "代替 2003 第2版",
+      "next": "—",
+      "url": "https://webstore.iec.ch/",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "60695-10-2",
+      "adopt": "被 GB/T 5169.21-2017 等同采用；对应 EN 60695-10-2:2014",
+      "adoptQ": "5169.21"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60695-10-2:2003",
+      "cn": "着火危险试验 第10-2部分：非正常热 球压试验方法（旧版）",
+      "en": "Fire hazard testing - Part 10-2: Abnormal heat - Ball pressure test method",
+      "type": "球压试验",
+      "status": "废止",
+      "edition": "Ed 2.0",
+      "pub": "2003",
+      "impl": "—",
+      "rel": "被 IEC 60695-10-2:2014 代替",
+      "next": "废止日期未核实",
+      "url": "https://webstore.iec.ch/",
+      "ver": "未核实",
+      "vd": "2026-11-08",
+      "series": "60695-10-2",
+      "adopt": "",
+      "adoptQ": ""
+    },
+    {
+      "sys": "EN",
+      "no": "EN 60695-10-2:2014",
+      "cn": "着火危险试验 第10-2部分：非正常热 球压试验方法",
+      "en": "Fire hazard testing - Part 10-2: Abnormal heat - Ball pressure test method",
+      "type": "球压试验",
+      "status": "现行",
+      "edition": "2014版，对应 IEC 60695-10-2:2014",
+      "pub": "2014-06-13",
+      "impl": "—",
+      "rel": "代替 EN 60695-10-2:2003；2014-03-26 批准",
+      "next": "dop 2014-12-26；dow 2017-03-26",
+      "url": "https://standards.cencenelec.eu/",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "60695-10-2",
+      "adopt": "采纳 IEC 60695-10-2:2014；对应国标 GB/T 5169.21-2017",
+      "adoptQ": "5169.21"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.1-2008",
+      "cn": "电工电子产品环境试验 第2部分：试验方法 试验A：低温",
+      "en": "Environmental testing - Part 2: Test methods - Test A: Cold",
+      "type": "低温试验",
+      "status": "现行",
+      "edition": "2008版",
+      "pub": "2008-12-30",
+      "impl": "2009-10-01",
+      "rel": "代替 GB/T 2423.1-2001",
+      "next": "修订计划 20263922-T-469 在研",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=4B30041DEFB4D9283C1DC9592735F67E",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "2423",
+      "adopt": "等同采用 IEC 60068-2-1:2007",
+      "adoptQ": "60068-2-1"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.2-2008",
+      "cn": "电工电子产品环境试验 第2部分：试验方法 试验B：高温",
+      "en": "Environmental testing - Part 2: Test methods - Test B: Dry heat",
+      "type": "高温试验",
+      "status": "现行",
+      "edition": "2008版",
+      "pub": "2008-12-30",
+      "impl": "2009-10-01",
+      "rel": "代替 GB/T 2423.2-2001（全部代替）",
+      "next": "修订计划在研（编号待核）",
+      "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D76114D3A7E05397BE0A0AB82A",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "2423",
+      "adopt": "等同采用 IEC 60068-2-2:2007",
+      "adoptQ": "60068-2-2"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.3-2016",
+      "cn": "环境试验 第2部分：试验方法 试验Cab：恒定湿热试验",
+      "en": "Environmental testing - Part 2: Test methods - Test Cab: Damp heat, steady state",
+      "type": "恒定湿热试验",
+      "status": "现行",
+      "edition": "2016版",
+      "pub": "2016-12-13",
+      "impl": "2017-07-01",
+      "rel": "代替 GB/T 2423.3-2006（全部代替）",
+      "next": "—",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=715A6E0D44ECD632C8D714C4F29AB6BF",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "2423",
+      "adopt": "等同采用 IEC 60068-2-78:2012（所采 IEC 2012 版已废止，被 2025 版代替）",
+      "adoptQ": "60068-2-78"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.3-2006",
+      "cn": "电工电子产品环境试验 第2部分：试验方法 试验Cab：恒定湿热试验（旧版）",
+      "en": "Environmental testing - Part 2: Test methods - Test Cab: Damp heat, steady state",
+      "type": "恒定湿热试验",
+      "status": "废止",
+      "edition": "2006版",
+      "pub": "2006-12-19",
+      "impl": "2007-09-01",
+      "rel": "被 GB/T 2423.3-2016 全部代替",
+      "next": "废止日期 2017-07-01",
+      "url": "https://std.samr.gov.cn/",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "2423",
+      "adopt": "",
+      "adoptQ": ""
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.4-2008",
+      "cn": "电工电子产品环境试验 第2部分：试验方法 试验Db：交变湿热试验（12h＋12h循环）",
+      "en": "Environmental testing - Part 2: Test methods - Test Db: Damp heat, cyclic (12 h + 12 h cycle)",
+      "type": "交变湿热试验",
+      "status": "现行",
+      "edition": "2008版",
+      "pub": "2008-05-19",
+      "impl": "2009-01-01",
+      "rel": "代替 GB/T 2423.4-1993",
+      "next": "—",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=4AA7BECD77360FAC973AD160FD175E27",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "2423",
+      "adopt": "等同采用 IEC 60068-2-30:2005（所采 IEC 2005 版已废止，被 2025 版代替）",
+      "adoptQ": "60068-2-30"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.4-1993",
+      "cn": "电工电子产品环境试验 第2部分：试验方法 试验Db：交变湿热试验（旧版）",
+      "en": "Environmental testing - Part 2: Test methods - Test Db: Damp heat, cyclic",
+      "type": "交变湿热试验",
+      "status": "废止",
+      "edition": "1993版",
+      "pub": "1993-11-19",
+      "impl": "1994-07-01",
+      "rel": "被 GB/T 2423.4-2008 代替",
+      "next": "废止日期 2009-01-01",
+      "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D79DC8D3A7E05397BE0A0AB82A",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "2423",
+      "adopt": "",
+      "adoptQ": ""
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.5-2019",
+      "cn": "环境试验 第2部分：试验方法 试验Ea：冲击",
+      "en": "Environmental testing - Part 2: Test methods - Test Ea: Shock",
+      "type": "冲击试验",
+      "status": "现行",
+      "edition": "2019版",
+      "pub": "2019-05-10",
+      "impl": "2019-12-01",
+      "rel": "代替 GB/T 2423.5-1995 和 GB/T 2423.6-1995（全部代替）",
+      "next": "—",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=8FB22EB67603CA59BD25A5CEA7D1AE9D",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "2423",
+      "adopt": "等同采用 IEC 60068-2-27:2008",
+      "adoptQ": "60068-2-27"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.5-1995",
+      "cn": "电工电子产品环境试验 第2部分：试验方法 试验Ea：冲击（旧版）",
+      "en": "Environmental testing - Part 2: Test methods - Test Ea: Shock",
+      "type": "冲击试验",
+      "status": "废止",
+      "edition": "1995版",
+      "pub": "未核实",
+      "impl": "未核实",
+      "rel": "被 GB/T 2423.5-2019 全部代替",
+      "next": "废止日期 2019-12-01",
+      "url": "https://std.samr.gov.cn/",
+      "ver": "未核实",
+      "vd": "2026-11-08",
+      "series": "2423",
+      "adopt": "",
+      "adoptQ": ""
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.6-1995",
+      "cn": "电工电子产品环境试验 第2部分：试验方法 试验Eb：碰撞",
+      "en": "Environmental testing - Part 2: Test methods - Test Eb: Bump",
+      "type": "碰撞试验",
+      "status": "废止",
+      "edition": "1995版",
+      "pub": "1995-08-29",
+      "impl": "1996-08-01",
+      "rel": "被 GB/T 2423.5-2019 全部代替（碰撞并入冲击）",
+      "next": "废止日期 2019-12-01",
+      "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D79B61D3A7E05397BE0A0AB82A",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "2423",
+      "adopt": "等同采用 IEC 68-2-29:1987",
+      "adoptQ": "60068-2-29"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.7-2018",
+      "cn": "环境试验 第2部分：试验方法 试验Ec：粗率操作造成的冲击（主要用于设备型样品）",
+      "en": "Environmental testing - Part 2: Test methods - Test Ec: Rough handling shocks, primarily for equipment-type specimens",
+      "type": "粗率操作冲击试验",
+      "status": "现行",
+      "edition": "2018版",
+      "pub": "2018-12-28",
+      "impl": "2019-07-01",
+      "rel": "代替 GB/T 2423.7-1995 和 GB/T 2423.8-1995",
+      "next": "—",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=62B5B93E6DA50682C0F23382A30AC4CF",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "2423",
+      "adopt": "等同采用 IEC 60068-2-31:2008",
+      "adoptQ": "60068-2-31"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.8-1995",
+      "cn": "电工电子产品环境试验 第2部分：试验方法 试验Ed：自由跌落",
+      "en": "Environmental testing - Part 2: Test methods - Test Ed: Free fall",
+      "type": "自由跌落试验",
+      "status": "废止",
+      "edition": "1995版",
+      "pub": "1995-08-29",
+      "impl": "1996-08-01",
+      "rel": "被 GB/T 2423.7-2018 全部代替",
+      "next": "废止日期 2019-07-01",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=C32D4567AD0ECA32BA0DFB08ED6F2BC7",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "2423",
+      "adopt": "",
+      "adoptQ": ""
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.10-2019",
+      "cn": "环境试验 第2部分：试验方法 试验Fc：振动（正弦）",
+      "en": "Environmental testing - Part 2: Test methods - Test Fc: Vibration (sinusoidal)",
+      "type": "振动试验",
+      "status": "现行",
+      "edition": "2019版",
+      "pub": "2019-06-04",
+      "impl": "2020-01-01",
+      "rel": "代替 GB/T 2423.10-2008（全部代替）",
+      "next": "—",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=CC5557EE457ACFBDE5999DD4D12AA826",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "2423",
+      "adopt": "等同采用 IEC 60068-2-6:2007",
+      "adoptQ": "60068-2-6"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.10-2008",
+      "cn": "电工电子产品环境试验 第2部分：试验方法 试验Fc：振动（正弦）（旧版）",
+      "en": "Environmental testing - Part 2: Test methods - Test Fc: Vibration (sinusoidal)",
+      "type": "振动试验",
+      "status": "废止",
+      "edition": "2008版",
+      "pub": "未核实",
+      "impl": "未核实",
+      "rel": "被 GB/T 2423.10-2019 全部代替",
+      "next": "废止日期未核实（随 2019 版实施）",
+      "url": "https://std.samr.gov.cn/",
+      "ver": "未核实",
+      "vd": "2026-11-08",
+      "series": "2423",
+      "adopt": "",
+      "adoptQ": ""
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.22-2012",
+      "cn": "环境试验 第2部分：试验方法 试验N：温度变化",
+      "en": "Environmental testing - Part 2: Test methods - Test N: Change of temperature",
+      "type": "温度变化试验",
+      "status": "现行",
+      "edition": "2012版",
+      "pub": "2012-12-31",
+      "impl": "2013-06-01",
+      "rel": "代替 GB/T 2423.22-2002 和 GB/T 2424.13-2002（全部代替）",
+      "next": "修订计划在研（编号待核）",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=594F3D5E92C435D89F0F2444970C8E26",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "2423",
+      "adopt": "等同采用 IEC 60068-2-14:2009（所采 IEC 2009 版已废止，被 2023 版代替）",
+      "adoptQ": "60068-2-14"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.22-2002",
+      "cn": "电工电子产品环境试验 第2部分：试验方法 试验N：温度变化（旧版）",
+      "en": "Environmental testing - Part 2: Test methods - Test N: Change of temperature",
+      "type": "温度变化试验",
+      "status": "废止",
+      "edition": "2002版",
+      "pub": "2002-06-13",
+      "impl": "2003-01-01",
+      "rel": "被 GB/T 2423.22-2012 全部代替",
+      "next": "废止日期 2013-06-01",
+      "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7E67ED3A7E05397BE0A0AB82A",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "2423",
+      "adopt": "",
+      "adoptQ": ""
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60068-2-1:2007",
+      "cn": "环境试验 第2-1部分：试验 试验A：低温（旧版）",
+      "en": "Environmental testing - Part 2-1: Tests - Test A: Cold",
+      "type": "低温试验",
+      "status": "废止",
+      "edition": "Ed 6.0",
+      "pub": "2007-03-13",
+      "impl": "—",
+      "rel": "被 IEC 60068-2-1:2025 代替",
+      "next": "废止日期 2025-09-23",
+      "url": "https://webstore.iec.ch/en/publication/502",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "60068-2-1",
+      "adopt": "被 GB/T 2423.1-2008 等同采用",
+      "adoptQ": "2423.1"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60068-2-1:2025",
+      "cn": "环境试验 第2-1部分：试验 试验A：低温",
+      "en": "Environmental testing - Part 2-1: Tests - Test A: Cold",
+      "type": "低温试验",
+      "status": "现行",
+      "edition": "Ed 7.0",
+      "pub": "2025-09-23",
+      "impl": "—",
+      "rel": "代替 2007 第6版",
+      "next": "—",
+      "url": "https://webstore.iec.ch/",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "60068-2-1",
+      "adopt": "对应 GB/T 2423.1-2008（国标采标 2007 版，非本版）",
+      "adoptQ": "2423.1"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60068-2-2:2007",
+      "cn": "环境试验 第2-2部分：试验 试验B：干热（旧版）",
+      "en": "Environmental testing - Part 2-2: Tests - Test B: Dry heat",
+      "type": "高温试验",
+      "status": "废止",
+      "edition": "Ed 5.0",
+      "pub": "2007-07-16",
+      "impl": "—",
+      "rel": "被 IEC 60068-2-2:2025 代替",
+      "next": "废止日期 2025-09-23",
+      "url": "https://webstore.iec.ch/en/publication/510",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "60068-2-2",
+      "adopt": "被 GB/T 2423.2-2008 等同采用",
+      "adoptQ": "2423.2"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60068-2-2:2025",
+      "cn": "环境试验 第2-2部分：试验 试验B：干热",
+      "en": "Environmental testing - Part 2-2: Tests - Test B: Dry heat",
+      "type": "高温试验",
+      "status": "现行",
+      "edition": "Ed 6.0",
+      "pub": "2025-09-23",
+      "impl": "—",
+      "rel": "代替 2007 第5版",
+      "next": "稳定期至 2031",
+      "url": "https://webstore.iec.ch/en/publication/82355",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "60068-2-2",
+      "adopt": "对应 GB/T 2423.2-2008（国标采标 2007 版，非本版）",
+      "adoptQ": "2423.2"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60068-2-78:2012",
+      "cn": "环境试验 第2-78部分：试验 试验Cab：恒定湿热（旧版）",
+      "en": "Environmental testing - Part 2-78: Tests - Test Cab: Damp heat, steady state",
+      "type": "恒定湿热试验",
+      "status": "废止",
+      "edition": "Ed 2.0",
+      "pub": "2012-10-30",
+      "impl": "—",
+      "rel": "被 IEC 60068-2-78:2025 代替",
+      "next": "废止日期 2025-08-06",
+      "url": "https://webstore.iec.ch/publication/560",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "60068-2-78",
+      "adopt": "被 GB/T 2423.3-2016 等同采用",
+      "adoptQ": "2423.3"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60068-2-78:2025",
+      "cn": "环境试验 第2-78部分：试验 试验Cab：恒定湿热",
+      "en": "Environmental testing - Part 2-78: Tests - Test Cab: Damp heat, steady state",
+      "type": "恒定湿热试验",
+      "status": "现行",
+      "edition": "Ed 3.0",
+      "pub": "2025-08-06",
+      "impl": "—",
+      "rel": "代替 2012 第2版",
+      "next": "稳定期至 2031",
+      "url": "https://webstore.iec.ch/en/publication/82357",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "60068-2-78",
+      "adopt": "对应 GB/T 2423.3-2016（国标采标 2012 版，非本版）",
+      "adoptQ": "2423.3"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60068-2-30:2005",
+      "cn": "环境试验 第2-30部分：试验 试验Db：交变湿热（12h＋12h循环）（旧版）",
+      "en": "Environmental testing - Part 2-30: Tests - Test Db: Damp heat, cyclic (12 h + 12 h cycle)",
+      "type": "交变湿热试验",
+      "status": "废止",
+      "edition": "Ed 3.0",
+      "pub": "2005-08-10",
+      "impl": "—",
+      "rel": "被 IEC 60068-2-30:2025 代替",
+      "next": "废止日期 2025-08-07",
+      "url": "https://webstore.iec.ch/en/publication/515/",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "60068-2-30",
+      "adopt": "被 GB/T 2423.4-2008 等同采用",
+      "adoptQ": "2423.4"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60068-2-30:2025",
+      "cn": "环境试验 第2-30部分：试验 试验Db：交变湿热（12h＋12h循环）",
+      "en": "Environmental testing - Part 2-30: Tests - Test Db: Damp heat, cyclic (12 h + 12 h cycle)",
+      "type": "交变湿热试验",
+      "status": "现行",
+      "edition": "Ed 4.0",
+      "pub": "2025-08-07",
+      "impl": "—",
+      "rel": "代替 2005 第3版",
+      "next": "稳定期至 2031",
+      "url": "https://webstore.iec.ch/en/publication/82356",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "60068-2-30",
+      "adopt": "对应 GB/T 2423.4-2008（国标采标 2005 版，非本版）",
+      "adoptQ": "2423.4"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60068-2-27:2008",
+      "cn": "环境试验 第2-27部分：试验 试验Ea：冲击",
+      "en": "Environmental testing - Part 2-27: Tests - Test Ea: Shock",
+      "type": "冲击试验",
+      "status": "现行",
+      "edition": "Ed 4.0",
+      "pub": "2008-02-27",
+      "impl": "—",
+      "rel": "代替 1987 第3版；合并 IEC 60068-2-29:1987",
+      "next": "稳定期至 2028",
+      "url": "https://webstore.iec.ch/publication/514",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "60068-2-27",
+      "adopt": "被 GB/T 2423.5-2019 等同采用",
+      "adoptQ": "2423.5"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60068-2-29:1987",
+      "cn": "环境试验 第2-29部分：试验 试验Eb：碰撞（旧版）",
+      "en": "Environmental testing - Part 2-29: Tests - Test Eb: Bump",
+      "type": "碰撞试验",
+      "status": "废止",
+      "edition": "Ed 2.0",
+      "pub": "1987-03-30",
+      "impl": "—",
+      "rel": "被 IEC 60068-2-27:2008 代替（合并）",
+      "next": "废止日期 2008-02-27",
+      "url": "https://webstore.iec.ch/en/publication/12717",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "60068-2-29",
+      "adopt": "被 GB/T 2423.6-1995 等同采用（国标已废止）",
+      "adoptQ": "2423.6"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60068-2-31:2008",
+      "cn": "环境试验 第2-31部分：试验 试验Ec：粗率操作造成的冲击（主要用于设备型样品）",
+      "en": "Environmental testing - Part 2-31: Tests - Test Ec: Rough handling shocks, primarily for equipment-type specimens",
+      "type": "粗率操作冲击试验",
+      "status": "现行",
+      "edition": "Ed 2.0",
+      "pub": "2008-05-21",
+      "impl": "—",
+      "rel": "并入 IEC 60068-2-32:1975（试验Ed 自由跌落）",
+      "next": "稳定期至 2026",
+      "url": "https://webstore.iec.ch/en/publication/516/",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "60068-2-31",
+      "adopt": "被 GB/T 2423.7-2018 等同采用",
+      "adoptQ": "2423.7"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60068-2-6:2007",
+      "cn": "环境试验 第2-6部分：试验 试验Fc：振动（正弦）",
+      "en": "Environmental testing - Part 2-6: Tests - Test Fc: Vibration (sinusoidal)",
+      "type": "振动试验",
+      "status": "现行",
+      "edition": "Ed 7.0",
+      "pub": "2007-12-13",
+      "impl": "—",
+      "rel": "代替 1995 第6版",
+      "next": "稳定期至 2029",
+      "url": "https://webstore.iec.ch/en/publication/544",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "60068-2-6",
+      "adopt": "被 GB/T 2423.10-2019 等同采用",
+      "adoptQ": "2423.10"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60068-2-14:2009",
+      "cn": "环境试验 第2-14部分：试验 试验N：温度变化（旧版）",
+      "en": "Environmental testing - Part 2-14: Tests - Test N: Change of temperature",
+      "type": "温度变化试验",
+      "status": "废止",
+      "edition": "Ed 6.0",
+      "pub": "2009-01-12",
+      "impl": "—",
+      "rel": "被 IEC 60068-2-14:2023 代替",
+      "next": "废止日期 2023-07-27",
+      "url": "https://webstore.iec.ch/en/publication/507",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "60068-2-14",
+      "adopt": "被 GB/T 2423.22-2012 等同采用",
+      "adoptQ": "2423.22"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60068-2-14:2023",
+      "cn": "环境试验 第2-14部分：试验 试验N：温度变化",
+      "en": "Environmental testing - Part 2-14: Tests - Test N: Change of temperature",
+      "type": "温度变化试验",
+      "status": "现行",
+      "edition": "Ed 7.0",
+      "pub": "2023-07-27",
+      "impl": "—",
+      "rel": "代替 2009 第6版",
+      "next": "稳定期至 2027",
+      "url": "https://webstore.iec.ch/en/publication/87380/",
+      "ver": "已核实",
+      "vd": "2026-11-08",
+      "series": "60068-2-14",
+      "adopt": "对应 GB/T 2423.22-2012（国标采标 2009 版，非本版）",
+      "adoptQ": "2423.22"
     }
   ]
 }
