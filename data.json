@@ -1,6 +1,6 @@
 {
   "checked": "2026-11-07",
-  "count": 26,
+  "count": 51,
   "items": [
     {
       "sys": "GB",
@@ -15,7 +15,10 @@
       "rel": "代替 GB/T 10963.1-2005（全部代替）",
       "next": "修订计划 20260282-T-604，正在征求意见，下达 2026-01-28",
       "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=B4C25880C3531CB3E05397BE0A0A92D0",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "10963",
+      "adopt": "等同采用 IEC 60898-1:2015",
+      "adoptQ": "60898"
     },
     {
       "sys": "GB",
@@ -30,7 +33,10 @@
       "rel": "—",
       "next": "—",
       "url": "https://std.samr.gov.cn/",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "10963",
+      "adopt": "修改采用 IEC 60898-2:2016",
+      "adoptQ": "60898-2"
     },
     {
       "sys": "GB",
@@ -45,7 +51,10 @@
       "rel": "代替 GB/T 10963.3-2016",
       "next": "—",
       "url": "https://std.samr.gov.cn/",
-      "ver": "未核实"
+      "ver": "未核实",
+      "series": "10963",
+      "adopt": "",
+      "adoptQ": ""
     },
     {
       "sys": "GB",
@@ -60,7 +69,10 @@
       "rel": "全部代替 GB/T 14048.1-2012",
       "next": "—",
       "url": "https://std.samr.gov.cn/gb/search/gbDetailedCNF?id=0B4529DE0FF9FCAFE06397BE0A0A46CC",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "14048",
+      "adopt": "修改采用 IEC 60947-1:2020",
+      "adoptQ": "60947-1"
     },
     {
       "sys": "GB",
@@ -75,7 +87,10 @@
       "rel": "采标，openstd 不提供全文阅读",
       "next": "—",
       "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=D67B4CA5133B65581E9463144A5725CE",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "14048",
+      "adopt": "修改采用 IEC 60947-2:2016+AMD1:2019",
+      "adoptQ": "60947-2"
     },
     {
       "sys": "GB",
@@ -90,7 +105,10 @@
       "rel": "上次复审 2021-12-28，结论继续有效",
       "next": "—",
       "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7EED5D3A7E05397BE0A0AB82A",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "16916",
+      "adopt": "修改采用 IEC 61008-1:2012",
+      "adoptQ": "61008-1"
     },
     {
       "sys": "GB",
@@ -105,7 +123,10 @@
       "rel": "上次复审 2021-12-28，结论继续有效；2017-03-23 起转为推荐性标准",
       "next": "—",
       "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7EA12D3A7E05397BE0A0AB82A",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "16917",
+      "adopt": "修改采用 IEC 61009-1:2012",
+      "adoptQ": "61009-1"
     },
     {
       "sys": "GB",
@@ -120,7 +141,10 @@
       "rel": "与 16916.1 / 16917.1 配套使用，见认证实施细则清单",
       "next": "—",
       "url": "https://std.samr.gov.cn/",
-      "ver": "未核实"
+      "ver": "未核实",
+      "series": "22794",
+      "adopt": "修改采用 IEC 62423:2009（待官网复核）",
+      "adoptQ": "62423"
     },
     {
       "sys": "IEC",
@@ -135,7 +159,10 @@
       "rel": "代替 2002 第1版 + AMD1:2002 + AMD2:2003",
       "next": "稳定期至 2026",
       "url": "https://webstore.iec.ch/en/publication/21972",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "60898",
+      "adopt": "被 GB/T 10963.1-2020 等同采用；对应 EN 60898-1:2019",
+      "adoptQ": "10963"
     },
     {
       "sys": "IEC",
@@ -150,7 +177,10 @@
       "rel": "代替 2007 第5版 + AMD1:2010 + AMD2:2014",
       "next": "稳定期至 2026",
       "url": "https://webstore.iec.ch/en/publication/26973",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "60947",
+      "adopt": "被 GB/T 14048.1-2023 修改采用；对应 EN IEC 60947-1:2021",
+      "adoptQ": "14048"
     },
     {
       "sys": "IEC",
@@ -165,7 +195,10 @@
       "rel": "代替 2016 第5版 + AMD1:2019",
       "next": "稳定期至 2026",
       "url": "https://webstore.iec.ch/en/publication/66277",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "60947",
+      "adopt": "对应 EN IEC 60947-2:2025；国标 GB/T 14048.2-2020 采标的是 2016 版",
+      "adoptQ": "60947-2:2025"
     },
     {
       "sys": "IEC",
@@ -180,7 +213,10 @@
       "rel": "被 IEC 60947-2:2024 代替",
       "next": "废止日期 2024-09-18",
       "url": "https://webstore.iec.ch/en/publication/65448",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "60947",
+      "adopt": "被 GB/T 14048.2-2020 修改采用",
+      "adoptQ": "14048"
     },
     {
       "sys": "IEC",
@@ -195,7 +231,10 @@
       "rel": "代替 2010 第3版 + AMD1:2012 + AMD2:2013",
       "next": "稳定期至 2029",
       "url": "https://webstore.iec.ch/en/publication/67980",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "61008",
+      "adopt": "对应 EN IEC 61008-1:2024；国标 GB/T 16916.1-2014 采标的是 2012 版",
+      "adoptQ": "16916"
     },
     {
       "sys": "IEC",
@@ -210,7 +249,10 @@
       "rel": "代替 2010 第3版 + AMD1:2012 + AMD2:2013",
       "next": "稳定期至 2029",
       "url": "https://webstore.iec.ch/en/publication/67981",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "61009",
+      "adopt": "对应 EN IEC 61009-1:2024；国标 GB/T 16917.1-2014 采标的是 2012 版",
+      "adoptQ": "16917"
     },
     {
       "sys": "IEC",
@@ -225,7 +267,10 @@
       "rel": "2013 第1版 + AMD1:2017 + AMD2:2022 合并版",
       "next": "稳定期至 2026",
       "url": "https://webstore.iec.ch/publication/80273",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "62606",
+      "adopt": "",
+      "adoptQ": ""
     },
     {
       "sys": "EN",
@@ -240,7 +285,10 @@
       "rel": "代替 EN 60898-1:2003；A1 / A11 于 2024-04-22 批准",
       "next": "A1 / A11 dop 2025-04-22",
       "url": "https://standards.cencenelec.eu/ords/f?p=305:32:::::FSP_ORG_ID,FSP_LANG_ID:1257221,25&cs=100DC98DE1248A1940D99DD27B3B9B81A",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "60898",
+      "adopt": "采纳 IEC 60898-1:2015；对应国标 GB/T 10963.1-2020",
+      "adoptQ": "10963"
     },
     {
       "sys": "EN",
@@ -255,7 +303,10 @@
       "rel": "对应 IEC 60947-1:2020（Ed 6.0）",
       "next": "—",
       "url": "https://standards.cencenelec.eu/",
-      "ver": "未核实"
+      "ver": "未核实",
+      "series": "60947",
+      "adopt": "采纳 IEC 60947-1:2020；对应国标 GB/T 14048.1-2023",
+      "adoptQ": "14048"
     },
     {
       "sys": "EN",
@@ -270,7 +321,10 @@
       "rel": "代替 EN 60947-2:2017 及 A1:2020；2024-10-16 批准",
       "next": "dop 2026-02-28",
       "url": "https://standards.cencenelec.eu/",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "60947",
+      "adopt": "采纳 IEC 60947-2:2024；对应国标 GB/T 14048.2-2020（国标采标 2016 版）",
+      "adoptQ": "14048"
     },
     {
       "sys": "EN",
@@ -285,7 +339,10 @@
       "rel": "IEC 61008-1:2024 已出，EN 采纳版待在 CENELEC 官网核对",
       "next": "—",
       "url": "https://standards.cencenelec.eu/",
-      "ver": "未核实"
+      "ver": "未核实",
+      "series": "61008",
+      "adopt": "采纳 IEC 61008-1:2024；对应国标 GB/T 16916.1-2014（国标采标 2012 版）",
+      "adoptQ": "16916"
     },
     {
       "sys": "EN",
@@ -300,7 +357,10 @@
       "rel": "IEC 61009-1:2024 已出，EN 采纳版待在 CENELEC 官网核对",
       "next": "—",
       "url": "https://standards.cencenelec.eu/",
-      "ver": "未核实"
+      "ver": "未核实",
+      "series": "61009",
+      "adopt": "采纳 IEC 61009-1:2024；对应国标 GB/T 16917.1-2014（国标采标 2012 版）",
+      "adoptQ": "16917"
     },
     {
       "sys": "UL",
@@ -315,7 +375,10 @@
       "rel": "代替 2019-04-22 第13版；ANSI 批准 2025-03-07",
       "next": "UL 处于持续维护中，新修订可能已在进行中",
       "url": "https://www.shopulstandards.com/ProductDetail.aspx?UniqueKey=47995",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "489",
+      "adopt": "",
+      "adoptQ": ""
     },
     {
       "sys": "UL",
@@ -330,7 +393,10 @@
       "rel": "Last Revision 2025-08-26，ANSI 批准 2025-08-26",
       "next": "—",
       "url": "https://www.shopulstandards.com/ProductDetail.aspx?UniqueKey=30753",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "489",
+      "adopt": "",
+      "adoptQ": ""
     },
     {
       "sys": "UL",
@@ -345,7 +411,10 @@
       "rel": "名称已确认，版次和发布日期未在 shopulstandards 详情页单独核实，不写",
       "next": "—",
       "url": "https://www.shopulstandards.com/",
-      "ver": "未核实"
+      "ver": "未核实",
+      "series": "1077",
+      "adopt": "",
+      "adoptQ": ""
     },
     {
       "sys": "GB",
@@ -360,7 +429,10 @@
       "rel": "被 GB/T 14048.1-2023 全部代替",
       "next": "废止 / 被代替：2024-06-01 起执行新版",
       "url": "https://std.samr.gov.cn/",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "14048",
+      "adopt": "",
+      "adoptQ": ""
     },
     {
       "sys": "GB",
@@ -375,7 +447,10 @@
       "rel": "被 GB/T 10963.1-2020 全部代替",
       "next": "—",
       "url": "https://std.samr.gov.cn/",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "10963",
+      "adopt": "",
+      "adoptQ": ""
     },
     {
       "sys": "GB",
@@ -390,7 +465,460 @@
       "rel": "被 GB/T 16917.1-2014 全部代替",
       "next": "—",
       "url": "https://std.samr.gov.cn/",
-      "ver": "已核实"
+      "ver": "已核实",
+      "series": "16917",
+      "adopt": "",
+      "adoptQ": ""
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 5169.5-2020",
+      "cn": "电工电子产品着火危险试验 第5部分：试验火焰 针焰试验方法 装置、确认试验方法和导则",
+      "en": "Test flames - Needle-flame test method - Apparatus, confirmatory test arrangement and guidance",
+      "type": "针焰试验",
+      "status": "现行",
+      "edition": "2020版",
+      "pub": "2020-11-19",
+      "impl": "2021-06-01",
+      "rel": "代替 GB/T 5169.5-2008（全部代替）",
+      "next": "—",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=F0DEBC0ECFC50ABF12F06FCE86BE7678",
+      "ver": "已核实",
+      "series": "5169",
+      "adopt": "等同采用 IEC 60695-11-5:2016",
+      "adoptQ": "60695-11-5"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 5169.5-2008",
+      "cn": "电工电子产品着火危险试验 第5部分：试验火焰 针焰试验方法（旧版）",
+      "en": "Test flames - Needle-flame test method",
+      "type": "针焰试验",
+      "status": "废止",
+      "edition": "2008版",
+      "pub": "2008-12-30",
+      "impl": "2009-10-01",
+      "rel": "被 GB/T 5169.5-2020 全部代替",
+      "next": "—",
+      "url": "https://std.samr.gov.cn/",
+      "ver": "已核实",
+      "series": "5169",
+      "adopt": "",
+      "adoptQ": ""
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60695-11-5:2016",
+      "cn": "着火危险试验 第11-5部分：试验火焰 针焰试验方法 装置、确认试验方法和导则",
+      "en": "Test flames - Needle-flame test method - Apparatus, confirmatory test arrangement and guidance",
+      "type": "针焰试验",
+      "status": "现行",
+      "edition": "Ed 2.0",
+      "pub": "2016-12-06",
+      "impl": "—",
+      "rel": "代替 2004 第1版",
+      "next": "稳定期至 2030",
+      "url": "https://webstore.iec.ch/en/publication/27371",
+      "ver": "已核实",
+      "series": "60695-11-5",
+      "adopt": "被 GB/T 5169.5-2020 等同采用",
+      "adoptQ": "5169.5"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 5169.10-2017",
+      "cn": "电工电子产品着火危险试验 第10部分：灼热丝/热丝基本试验方法 灼热丝装置和通用试验方法",
+      "en": "Glow-wire apparatus and common test procedure",
+      "type": "灼热丝试验",
+      "status": "现行",
+      "edition": "2017版",
+      "pub": "2017-12-29",
+      "impl": "2018-07-01",
+      "rel": "代替 GB/T 5169.10-2006",
+      "next": "修订计划 20252193-T-604 在研",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=3C203E30EE5B22E9486F2679694EE031",
+      "ver": "已核实",
+      "series": "5169",
+      "adopt": "等同采用 IEC 60695-2-10:2013",
+      "adoptQ": "60695-2-10"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 5169.11-2017",
+      "cn": "电工电子产品着火危险试验 第11部分：灼热丝/热丝基本试验方法 成品的灼热丝可燃性试验方法（GWEPT）",
+      "en": "Glow-wire flammability test method for end-products (GWEPT)",
+      "type": "灼热丝试验",
+      "status": "现行",
+      "edition": "2017版",
+      "pub": "2017-12-29",
+      "impl": "2018-07-01",
+      "rel": "代替 GB/T 5169.11-2006",
+      "next": "修订计划 20252194-T-604 正在批准",
+      "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D82636D3A7E05397BE0A0AB82A",
+      "ver": "已核实",
+      "series": "5169",
+      "adopt": "等同采用 IEC 60695-2-11:2014",
+      "adoptQ": "60695-2-11"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 5169.12-2024",
+      "cn": "电工电子产品着火危险试验 第12部分：灼热丝/热丝基本试验方法 材料的灼热丝可燃性指数（GWFI）试验方法",
+      "en": "Glow-wire flammability index (GWFI) test method for materials",
+      "type": "灼热丝试验",
+      "status": "现行",
+      "edition": "2024版",
+      "pub": "2024-08-23",
+      "impl": "2025-03-01",
+      "rel": "代替 GB/T 5169.12-2013",
+      "next": "—",
+      "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=208E903AB61479F3E06397BE0A0AB2B9",
+      "ver": "已核实",
+      "series": "5169",
+      "adopt": "等同采用 IEC 60695-2-12:2021",
+      "adoptQ": "60695-2-12"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 5169.13-2024",
+      "cn": "电工电子产品着火危险试验 第13部分：灼热丝/热丝基本试验方法 材料的灼热丝起燃温度（GWIT）试验方法",
+      "en": "Glow-wire ignition temperature (GWIT) test method for materials",
+      "type": "灼热丝试验",
+      "status": "现行",
+      "edition": "2024版",
+      "pub": "2024-08-23",
+      "impl": "2025-03-01",
+      "rel": "代替 GB/T 5169.13-2013",
+      "next": "—",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=A767D5A650107BA77CF07E30B04A15FD",
+      "ver": "已核实",
+      "series": "5169",
+      "adopt": "等同采用 IEC 60695-2-13:2021",
+      "adoptQ": "60695-2-13"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60695-2-10:2026",
+      "cn": "着火危险试验 第2-10部分：灼热丝/热丝基本试验方法 灼热丝装置和通用试验方法",
+      "en": "Glow-wire apparatus and common test procedure",
+      "type": "灼热丝试验",
+      "status": "现行",
+      "edition": "Ed 4.0",
+      "pub": "2026-05",
+      "impl": "—",
+      "rel": "代替 2021 第3版",
+      "next": "具体发布日与官网详情页链接待后台复核",
+      "url": "https://webstore.iec.ch/",
+      "ver": "已核实",
+      "series": "60695-2-10",
+      "adopt": "对应国标 GB/T 5169.10-2017（国标采标 2013 版，非本版）",
+      "adoptQ": "5169.10"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60695-2-10:2021",
+      "cn": "着火危险试验 第2-10部分：灼热丝装置和通用试验方法（旧版）",
+      "en": "Glow-wire apparatus and common test procedure",
+      "type": "灼热丝试验",
+      "status": "废止",
+      "edition": "Ed 3.0",
+      "pub": "2021-10",
+      "impl": "—",
+      "rel": "被 IEC 60695-2-10:2026 代替",
+      "next": "废止日期未核实（随 2026 版发布）",
+      "url": "https://webstore.iec.ch/",
+      "ver": "未核实",
+      "series": "60695-2-10",
+      "adopt": "",
+      "adoptQ": ""
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60695-2-11:2021",
+      "cn": "着火危险试验 第2-11部分：灼热丝/热丝基本试验方法 成品的灼热丝可燃性试验方法（GWEPT）",
+      "en": "Glow-wire flammability test method for end-products (GWEPT)",
+      "type": "灼热丝试验",
+      "status": "现行",
+      "edition": "Ed 3.0",
+      "pub": "2021-10",
+      "impl": "—",
+      "rel": "代替 2014 第2版",
+      "next": "官网详情页链接待后台复核",
+      "url": "https://webstore.iec.ch/",
+      "ver": "未核实",
+      "series": "60695-2-11",
+      "adopt": "对应国标 GB/T 5169.11-2017（国标采标 2014 版，非本版）",
+      "adoptQ": "5169.11"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60695-2-11:2014",
+      "cn": "着火危险试验 第2-11部分：成品的灼热丝可燃性试验方法（GWEPT）（旧版）",
+      "en": "Glow-wire flammability test method for end-products (GWEPT)",
+      "type": "灼热丝试验",
+      "status": "废止",
+      "edition": "Ed 2.0",
+      "pub": "2014-02-06",
+      "impl": "—",
+      "rel": "被 IEC 60695-2-11:2021 代替",
+      "next": "废止日期 2021-10-28",
+      "url": "https://webstore.iec.ch/en/publication/22262",
+      "ver": "已核实",
+      "series": "60695-2-11",
+      "adopt": "被 GB/T 5169.11-2017 等同采用（国标仍现行）",
+      "adoptQ": "5169.11"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60695-2-12:2021",
+      "cn": "着火危险试验 第2-12部分：灼热丝/热丝基本试验方法 材料的灼热丝可燃性指数（GWFI）试验方法",
+      "en": "Glow-wire flammability index (GWFI) test method for materials",
+      "type": "灼热丝试验",
+      "status": "现行",
+      "edition": "Ed 3.0",
+      "pub": "2021-10-08",
+      "impl": "—",
+      "rel": "代替 2010 第2版 + AMD1:2014",
+      "next": "稳定期至 2028",
+      "url": "https://webstore.iec.ch/en/publication/62845/",
+      "ver": "已核实",
+      "series": "60695-2-12",
+      "adopt": "被 GB/T 5169.12-2024 等同采用",
+      "adoptQ": "5169.12"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60695-2-13:2021",
+      "cn": "着火危险试验 第2-13部分：灼热丝/热丝基本试验方法 材料的灼热丝起燃温度（GWIT）试验方法",
+      "en": "Glow-wire ignition temperature (GWIT) test method for materials",
+      "type": "灼热丝试验",
+      "status": "现行",
+      "edition": "Ed 3.0",
+      "pub": "2021-08-24",
+      "impl": "—",
+      "rel": "代替 2010 第2版 + AMD1:2014",
+      "next": "稳定期至 2028",
+      "url": "https://webstore.iec.ch/en/publication/62846/",
+      "ver": "已核实",
+      "series": "60695-2-13",
+      "adopt": "被 GB/T 5169.13-2024 等同采用",
+      "adoptQ": "5169.13"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 4207-2022",
+      "cn": "固体绝缘材料耐电痕化指数和相比电痕化指数的测定方法",
+      "en": "Method for the determination of the proof and the comparative tracking indices of solid insulating materials",
+      "type": "CTI·PTI",
+      "status": "现行",
+      "edition": "2022版",
+      "pub": "2022-07-11",
+      "impl": "2023-02-01",
+      "rel": "全部代替 GB/T 4207-2012",
+      "next": "修订计划 20210753-T-604 已发布",
+      "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=E116673EDA74A3B7E05397BE0A0AC6BF",
+      "ver": "已核实",
+      "series": "4207",
+      "adopt": "等同采用 IEC 60112:2020",
+      "adoptQ": "60112"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 4207-2012",
+      "cn": "固体绝缘材料耐电痕化指数和相比电痕化指数的测定方法（旧版）",
+      "en": "Method for the determination of the proof and the comparative tracking indices of solid insulating materials",
+      "type": "CTI·PTI",
+      "status": "废止",
+      "edition": "2012版",
+      "pub": "2012-12-31",
+      "impl": "2013-06-01",
+      "rel": "被 GB/T 4207-2022 全部代替",
+      "next": "—",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=9FCCA218E6B72B9141D35DE17586A9D1",
+      "ver": "已核实",
+      "series": "4207",
+      "adopt": "",
+      "adoptQ": ""
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60112:2025",
+      "cn": "固体绝缘材料耐电痕化指数和相比电痕化指数的测定方法",
+      "en": "Method for the determination of the proof and the comparative tracking indices of solid insulating materials",
+      "type": "CTI·PTI",
+      "status": "现行",
+      "edition": "Ed 6.0",
+      "pub": "2025-06-23",
+      "impl": "—",
+      "rel": "代替 2020 第5版",
+      "next": "稳定期至 2028；COR1:2026 已出（2026-02-18）",
+      "url": "https://webstore.iec.ch/en/publication/79781",
+      "ver": "已核实",
+      "series": "60112",
+      "adopt": "对应国标 GB/T 4207-2022（国标采标 2020 版，非本版）",
+      "adoptQ": "4207"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60112:2020",
+      "cn": "固体绝缘材料耐电痕化指数和相比电痕化指数的测定方法（旧版）",
+      "en": "Method for the determination of the proof and the comparative tracking indices of solid insulating materials",
+      "type": "CTI·PTI",
+      "status": "废止",
+      "edition": "Ed 5.0",
+      "pub": "2020-10-28",
+      "impl": "—",
+      "rel": "被 IEC 60112:2025 代替",
+      "next": "废止日期 2025-06-23",
+      "url": "https://webstore.iec.ch/en/publication/32739/",
+      "ver": "已核实",
+      "series": "60112",
+      "adopt": "被 GB/T 4207-2022 等同采用（国标仍现行）",
+      "adoptQ": "4207"
+    },
+    {
+      "sys": "EN",
+      "no": "EN IEC 60112:2025",
+      "cn": "固体绝缘材料耐电痕化指数和相比电痕化指数的测定方法",
+      "en": "Method for the determination of the proof and the comparative tracking indices of solid insulating materials",
+      "type": "CTI·PTI",
+      "status": "现行",
+      "edition": "2025版，对应 IEC 60112:2025",
+      "pub": "2025-08",
+      "impl": "—",
+      "rel": "代替 EN IEC 60112:2020；2025-07-28 批准",
+      "next": "dop 2026-08-31；dow 2028-08-31",
+      "url": "https://standards.cencenelec.eu/",
+      "ver": "未核实",
+      "series": "60112",
+      "adopt": "采纳 IEC 60112:2025；对应国标 GB/T 4207-2022",
+      "adoptQ": "4207"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 10125-2021",
+      "cn": "人造气氛腐蚀试验 盐雾试验",
+      "en": "Corrosion tests in artificial atmospheres - Salt spray tests",
+      "type": "盐雾试验",
+      "status": "现行",
+      "edition": "2021版",
+      "pub": "2021-08-20",
+      "impl": "2022-03-01",
+      "rel": "全部代替 GB/T 10125-2012",
+      "next": "含 NSS / AASS / CASS 三种方法",
+      "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=CA6C0E542BDCC983E05397BE0A0AED11",
+      "ver": "已核实",
+      "series": "10125",
+      "adopt": "修改采用 ISO 9227:2017",
+      "adoptQ": "9227"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 10125-2012",
+      "cn": "人造气氛腐蚀试验 盐雾试验（旧版）",
+      "en": "Corrosion tests in artificial atmospheres - Salt spray tests",
+      "type": "盐雾试验",
+      "status": "废止",
+      "edition": "2012版",
+      "pub": "未核实",
+      "impl": "—",
+      "rel": "被 GB/T 10125-2021 全部代替",
+      "next": "—",
+      "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7E2B7D3A7E05397BE0A0AB82A",
+      "ver": "已核实",
+      "series": "10125",
+      "adopt": "",
+      "adoptQ": ""
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.17-2024",
+      "cn": "环境试验 第2部分：试验方法 试验Ka：盐雾",
+      "en": "Environmental testing - Part 2: Test methods - Test Ka: Salt mist",
+      "type": "盐雾试验",
+      "status": "现行",
+      "edition": "2024版",
+      "pub": "2024-08-23",
+      "impl": "2025-03-01",
+      "rel": "全部代替 GB/T 2423.17-2008",
+      "next": "—",
+      "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=208E903AB60D79F3E06397BE0A0AB2B9",
+      "ver": "已核实",
+      "series": "2423",
+      "adopt": "等同采用 IEC 60068-2-11:2021",
+      "adoptQ": "60068-2-11"
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.17-2008",
+      "cn": "电工电子产品环境试验 第2部分：试验方法 试验Ka：盐雾（旧版）",
+      "en": "Environmental testing - Part 2: Test methods - Test Ka: Salt mist",
+      "type": "盐雾试验",
+      "status": "废止",
+      "edition": "2008版",
+      "pub": "未核实",
+      "impl": "—",
+      "rel": "被 GB/T 2423.17-2024 全部代替",
+      "next": "废止日期 2025-03-01",
+      "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7775AD3A7E05397BE0A0AB82A",
+      "ver": "已核实",
+      "series": "2423",
+      "adopt": "",
+      "adoptQ": ""
+    },
+    {
+      "sys": "GB",
+      "no": "GB/T 2423.18-2021",
+      "cn": "环境试验 第2部分：试验方法 试验Kb：盐雾，交变（氯化钠溶液）",
+      "en": "Environmental testing - Part 2: Test methods - Test Kb: Salt mist, cyclic (sodium chloride solution)",
+      "type": "盐雾试验",
+      "status": "现行",
+      "edition": "2021版",
+      "pub": "2021-05-21",
+      "impl": "2021-12-01",
+      "rel": "代替 GB/T 2423.18-2012",
+      "next": "—",
+      "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=C3386C490C968B79E05397BE0A0AC288",
+      "ver": "已核实",
+      "series": "2423",
+      "adopt": "等同采用 IEC 60068-2-52:2017",
+      "adoptQ": "60068-2-52"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60068-2-11:2021",
+      "cn": "环境试验 第2-11部分：试验 试验Ka：盐雾",
+      "en": "Environmental testing - Part 2-11: Tests - Test Ka: Salt mist",
+      "type": "盐雾试验",
+      "status": "现行",
+      "edition": "Ed 4.0",
+      "pub": "2021-03-03",
+      "impl": "—",
+      "rel": "代替 1981 第3版",
+      "next": "稳定期至 2027",
+      "url": "https://webstore.iec.ch/en/publication/64484/",
+      "ver": "已核实",
+      "series": "60068-2-11",
+      "adopt": "被 GB/T 2423.17-2024 等同采用",
+      "adoptQ": "2423.17"
+    },
+    {
+      "sys": "IEC",
+      "no": "IEC 60068-2-52:2017",
+      "cn": "环境试验 第2-52部分：试验 试验Kb：盐雾，交变（氯化钠溶液）",
+      "en": "Environmental testing - Part 2-52: Tests - Test Kb: Salt mist, cyclic (sodium chloride solution)",
+      "type": "盐雾试验",
+      "status": "现行",
+      "edition": "Ed 3.0",
+      "pub": "2017-11-07",
+      "impl": "—",
+      "rel": "代替 1996 第2版",
+      "next": "稳定期至 2027",
+      "url": "https://webstore.iec.ch/en/publication/30839",
+      "ver": "已核实",
+      "series": "60068-2-52",
+      "adopt": "被 GB/T 2423.18-2021 等同采用",
+      "adoptQ": "2423.18"
     }
   ]
 }
