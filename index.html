@@ -20,8 +20,8 @@ input[type=search]{width:100%;font-size:17px;padding:12px 14px;border:1px solid 
 .stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
 .stat{background:#f0f4f8;border-radius:10px;padding:10px 14px}
 .stat b{font-size:20px}
-table{width:100%;border-collapse:collapse;font-size:14px}
-th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #eee;vertical-align:top;line-height:1.5}
+table{width:100%;border-collapse:collapse;font-size:14px;table-layout:fixed}
+th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #eee;vertical-align:top;line-height:1.5;overflow-wrap:anywhere}
 th{background:#f0f4f8;position:sticky;top:0}
 .badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;white-space:nowrap}
 .ok{background:#e6f4ea;color:#137333}
@@ -31,9 +31,17 @@ th{background:#f0f4f8;position:sticky;top:0}
 .rev{background:#e8f0fe;color:#174ea6}
 a{color:#0b57d0;word-break:break-all}
 .small{color:#5f6368;font-size:13px;line-height:1.7}
-code{background:#f0f4f8;padding:2px 6px;border-radius:6px}
+code{background:#f0f4f8;padding:2px 6px;border-radius:6px;overflow-wrap:anywhere}
 footer{color:#5f6368;font-size:13px;line-height:1.7;padding:10px 0 30px}
-@media(max-width:720px){table{font-size:13px}th:nth-child(4),td:nth-child(4){display:none}}
+@media(max-width:720px){
+table{font-size:13px}
+thead{display:none}
+table,tbody,tr,td{display:block;width:100%}
+tr{border:1px solid #e3e6ea;border-radius:10px;margin-bottom:12px;padding:2px 12px;box-sizing:border-box}
+td{border-bottom:1px solid #eee;padding:8px 0;box-sizing:border-box}
+td:last-child{border-bottom:0}
+td::before{content:attr(data-label);display:block;font-size:12px;color:#5f6368;margin-bottom:2px}
+}
 @media(prefers-color-scheme:dark){
 body{background:#121417;color:#e8eaed;color-scheme:dark}
 header{background:#0a1c30}
@@ -45,6 +53,8 @@ input[type=search]{background:#1e2124;color:#e8eaed;border-color:#44484d}
 .chips button.on{background:#2a4a6b;border-color:#2a4a6b}
 .stat{background:#22262b}
 th,td{border-bottom-color:#33373c}
+tr{border-color:#33373c}
+td::before{color:#9aa0a6}
 th{background:#22262b}
 .ok{background:#1e3a24;color:#7ddf9a}
 .soon{background:#3d2f00;color:#fbbc04}
@@ -77,6 +87,7 @@ footer{color:#9aa0a6}
 </div>
 <div class="box" style="overflow-x:auto">
 <table>
+<colgroup><col style="width:16%"><col style="width:26%"><col style="width:7%"><col style="width:9%"><col style="width:13%"><col style="width:18%"><col style="width:11%"></colgroup>
 <thead><tr><th>标准号</th><th>名称 / 类型</th><th>体系</th><th>状态</th><th>版次 / 日期</th><th>代替 / 采用关系</th><th>官网 / 核实</th></tr></thead>
 <tbody id="tbody"></tbody>
 </table>
@@ -244,7 +255,7 @@ $("stats").innerHTML='<div class="stat">共 <b>'+DATA.length+'</b> 条</div><div
 $("tbody").innerHTML=rows.map(d=>{
 const ser=d.series?'<br><span class="small">系列 <a href="#" onclick="setQ(\''+d.series+'\');return false;">'+d.series+'</a> · 同系列 '+seriesCount(d.series)+' 条</span>':'';
 const ad=d.adopt?(d.adoptQ?'<br><span class="small">采用：<a href="#" onclick="setQ(\''+d.adoptQ+'\');return false;">'+d.adopt+'</a></span>':'<br><span class="small">采用：'+d.adopt+'</span>'):'';
-return '<tr><td><b>'+d.no+'</b><br><span class="small">'+d.type+'</span>'+ser+'</td><td>'+d.cn+'<br><span class="small">'+d.en+'</span></td><td>'+d.sys+'</td><td>'+badge(d.status)+'</td><td>'+d.edition+'<br><span class="small">发布 '+d.pub+'<br>实施 '+d.impl+'</span></td><td>'+d.rel+ad+'<br><span class="small">'+d.next+'</span></td><td><a href="'+d.url+'" target="_blank" rel="noopener">官网详情页</a><br><span class="small">'+d.ver+' · '+(d.vd||"2026-11-07")+'</span></td></tr>';
+return '<tr><td data-label="标准号"><b>'+d.no+'</b><br><span class="small">'+d.type+'</span>'+ser+'</td><td data-label="名称 / 类型">'+d.cn+'<br><span class="small">'+d.en+'</span></td><td data-label="体系">'+d.sys+'</td><td data-label="状态">'+badge(d.status)+'</td><td data-label="版次 / 日期">'+d.edition+'<br><span class="small">发布 '+d.pub+'<br>实施 '+d.impl+'</span></td><td data-label="代替 / 采用关系">'+d.rel+ad+'<br><span class="small">'+d.next+'</span></td><td data-label="官网 / 核实"><a href="'+d.url+'" target="_blank" rel="noopener">官网详情页</a><br><span class="small">'+d.ver+' · '+(d.vd||"2026-11-07")+'</span></td></tr>';
 }).join("")||'<tr><td colspan="7">没找到，换个标准号或关键词试试，例如 10963、60947、RCBO。</td></tr>';
 $("count").textContent="当前显示 "+rows.length+" 条 · 官网链接均为官方详情页或官网检索入口，未猜测构造详情地址。";
 }
